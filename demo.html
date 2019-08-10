@@ -1,0 +1,98 @@
+<!--
+    Author: Varun Chopra
+    Date of completion: 26/07/2019
+    Description: This is the HTML file for the demonstration page.
+-->
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!-- Font Awesome -->
+        <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">-->
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet">
+
+        <!--favicon-->
+        <link rel="shortcut icon" type="image/png" href="https://static.showit.co/200/bfo0k_e3Q_WajxHw48htnQ/shared/m-logo_favicon.png"/>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/js/mdb.min.js"></script>
+
+        <!-- adding javascript file hosted on same server at ../script -->
+        <script type="application/javascript" src="script"></script>
+
+        <title>
+            Matra
+        </title>
+    </head>
+    <body>
+        <div class = "container">
+            <br>
+            <center><img src="title" style="height: 30%; width: 30%;"></center>
+            <h5 style="font-family: 'Caveat';font-size: 22px;"><center>an indic phonetic typing tool</center></h5>
+            <br>
+       
+            <form method="GET" action="" id="input"> 
+        
+            <div class="form-group">
+                <label for="lang">
+                    <b>
+                    Select a language of your preference:
+                    </b>
+                </label>
+                <select class="form-control" name="lang">
+                    <option value="bengali">Bengali</option>
+                    <option value="gujarati">Gujarati</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="eng">English</option>
+                    <option value="kannada">Kannada</option>
+                    <option value="malayalam">Malayalam</option>
+                    <option value="marathi">Marathi</option>
+                    <option value="nepali">Nepali</option>
+                    <option value="punjabi">Punjabi</option>
+                    <option value="tamil">Tamil</option>
+                    <option value="telugu">Telugu</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="form-group ui-widget">
+                <label for="inp">
+                <b>
+                    Enter text to be converted: 
+                </b>
+                </label>
+                <textarea rows="5" id="inp" name="inp" form="input" class="form-control" autocomplete="off"></textarea>
+            </div>
+
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <footer style="position: fixed; left: 0; bottom: 0; width: 100%" class="page-footer font-small black darken-3">
+
+          <!-- Footer Elements -->
+          <div class="container">
+
+          </div>
+          <!-- Footer Elements -->
+          <div class="footer-copyright text-left py-1">
+              <a href="https://www.nic.in/" target="_blank">
+                <img src="https://ecounselling.nic.in/img/niclogo1.png" style="height: 8%; width: 8%;">
+              </a>
+          </div>
+
+          </footer>
+    <!-- Footer -->
+        
+    </body>
+</html>
